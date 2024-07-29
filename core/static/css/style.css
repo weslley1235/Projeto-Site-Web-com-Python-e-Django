@@ -2,6 +2,7 @@
 
 *{
     font-family: 'roboto', sans-serif;
+    color: #fff;
 }
 
 .footer {
@@ -98,14 +99,40 @@
     opacity: .8;
 }
 
-.card .img0 { background-image: url('images/.img1.jpg');}
-.card .img1 { background-image: url('images/.img2.jpg');}
-.card .img2 { background-image: url('images/.img3.jpg');}
-.card .img3 { background-image: url('images/.img4.jpg');}
-.card .img4 { background-image: url('images/.img5.jpg');}
-.card .img5 { background-image: url('images/.img6.jpg');}
-.card .img6 { background-image: url('images/.img7.jpg');}
-.card .img7 { background-image: url('images/img8.jpg');}
+/* .card .img0 { background-image: url(' {% static "images/img1.jpg"}'); height: 200px; width: 200px;}
+.card .img1 { background-image: url('images/img2.jpg');}
+.card .img2 { background-image: url('images/img3.jpg');}
+.card .img3 { background-image: url('images/img4.jpg');}
+.card .img4 { background-image: url('images/img5.jpg');}
+.card .img5 { background-image: url('images/img6.jpg');}
+.card .img6 { background-image: url('images/img7.jpg');}
+.card .img7 { background-image: url('images/img8.jpg');} */
+
+.card .img0 { 
+    background-image: url('/static/images/img1.jpg'); 
+}
+.card .img1 { 
+    background-image: url('/static/images/img2.jpg'); 
+}
+.card .img2 { 
+    background-image: url('/static/images/img3.jfif'); 
+}
+.card .img3 { 
+    background-image: url('/static/images/img4.jpg'); 
+}
+.card .img4 { 
+    background-image: url('/static/images/img5.jpg'); 
+}
+.card .img5 { 
+    background-image: url('/static/images/img6.jpg'); 
+}
+.card .img6 { 
+    background-image: url('/static/images/img7.jpg'); 
+}
+.card .img7 { 
+    background-image: url('/static/images/img8.jpg'); 
+}
+
 
 .card .img span {
     text-transform: uppercase;
