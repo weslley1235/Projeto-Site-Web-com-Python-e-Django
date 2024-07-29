@@ -1,0 +1,75 @@
+{% extends '_main.html' %}
+{% load static %}
+{% block content %}
+
+ <style>
+    .custon-img {
+        width: 910px;
+        height: 810px;
+        object-fit: cover;
+    }
+</style>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'images/card1.jpg' %}" class="d-block w-100 custon-img" alt="...">
+            <div class="carousel-caption d-none d-md-block" style=" background-color: rgba(0,0,0,0.5)"">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'images/card2.jpg' %}" class="d-block w-100 custon-img" alt="...">
+            <div class="carousel-caption d-none d-md-block" style=" background-color: rgba(0,0,0,0.5)">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'images/card3.jpg' %}" class="d-block w-100 custon-img" alt="...">
+            <div class="carousel-caption d-none d-md-block" style=" background-color: rgba(0,0,0,0.5)">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container">
+
+        <h1>Explore o Mundo dos Carros Importados: Onde Luxo e Inovação Se Encontram</h1>
+
+
+        <h2>Descubra o Carro dos Seus Sonhos</h2>
+        <p>Ao considerar a compra de um carro, por que se contentar com o comum quando você pode escolher um modelo importado? Os carros importados são a expressão máxima de engenharia de ponta, design inovador e um desempenho que cativa. Cada veículo importado é uma obra de arte, meticulosamente projetada para oferecer uma experiência de condução incomparável e uma presença marcante nas ruas.</p>
+
+        <h2>Elegância e Tecnologia ao Seu Alcance</h2>
+        <p>Com um carro importado, você não está apenas adquirindo um meio de transporte, mas um símbolo de status e sofisticação. Modelos de marcas renomadas como Ferrari, Porsche, Mercedes-Benz e BMW oferecem não apenas beleza estética, mas também tecnologia de ponta e um desempenho excepcional. Imagine dirigir um carro equipado com os mais recentes sistemas de assistência ao motorista, uma cabine luxuosa e conectividade que faz você se sentir no futuro – é isso que os carros importados prometem.</p>
+
+        <h2>A Experiência de Conduzir um Carro Importado</h2>
+        <p>Cada viagem em um carro importado é uma experiência única. Desde o momento em que você liga o motor, sente a diferença. O desempenho potente, a suspensão aprimorada e a tecnologia inovadora proporcionam uma condução suave e envolvente. Além disso, o design externo impressiona e faz você se destacar em qualquer estrada, enquanto o interior luxuoso oferece conforto inigualável.</p>
+
+        <h2>Desafios e Benefícios</h2>
+        <p>Claro, possuir um carro importado pode envolver desafios, como custos de manutenção mais elevados e impostos de importação. No entanto, esses desafios são superados pelo prestígio e pela experiência incomparável que esses veículos oferecem. Cada detalhe é cuidadosamente planejado para garantir que cada passeio seja uma celebração da engenharia e do design.</p>
+
+        <h2>Explore o Futuro da Mobilidade com um Carro Importado</h2>
+        <p>Não se contente com o ordinário. Eleve sua experiência de direção e transforme seu conceito de mobilidade com um carro importado. Venha conhecer os modelos que estão redefinindo o futuro da indústria automotiva e descubra por que um carro importado é mais do que uma simples compra – é uma experiência inesquecível.</p>
+
+        <p>Entre no mundo dos carros importados e sinta a diferença. Seu novo carro está esperando por você. 🚗✨</p>
+
+     
+    {% endblock %}
